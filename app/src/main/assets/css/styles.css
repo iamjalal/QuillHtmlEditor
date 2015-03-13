@@ -1,0 +1,20 @@
+.toolbar {
+  border-bottom: 1px solid #ccc;
+}
+
+.editor, .toolbar {
+  visibility: hidden;
+}
+
+.editor.ql-container, .toolbar.ql-toolbar {
+  visibility: visible;
+}
+
+#editor {
+  height: 150px;
+  -webkit-transition: height 500ms ease-out;
+  -moz-transition: height 500ms ease-out;
+  transition: height 500ms ease-out;
+}
+
+
